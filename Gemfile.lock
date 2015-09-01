@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/amro/gibbon.git
+  revision: f4a489f42c7744ffe59c7c07fd52b565bdb22976
+  specs:
+    gibbon (2.0.0)
+      faraday (>= 0.9.1)
+      multi_json (>= 1.11.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -63,9 +71,6 @@ GEM
     foundation-rails (5.5.2.1)
       railties (>= 3.1.0)
       sass (>= 3.3.0, < 3.5)
-    gibbon (2.0.0)
-      faraday (>= 0.9.1)
-      multi_json (>= 1.11.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     high_voltage (2.4.0)
@@ -162,7 +167,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
   foundation-rails
-  gibbon
+  gibbon!
   high_voltage
   jbuilder (~> 2.0)
   jquery-rails

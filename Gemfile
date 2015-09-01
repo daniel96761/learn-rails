@@ -28,7 +28,8 @@ gem 'spring'
 
 # learn-rails
 gem 'foundation-rails'
-gem 'gibbon'
+#gem 'gibbon'
+gem 'gibbon', git: 'git://github.com/amro/gibbon.git'
 gem 'high_voltage'
 gem 'simple_form'
 group :development do
